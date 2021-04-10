@@ -1,0 +1,72 @@
+.ui.form {
+  text-align: center;
+  background-image: url("/src/dogBackground.jpg");
+  height: 160px;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: cover;
+  box-shadow: 0px 7px 14px 3px #474747;
+}
+
+.label {
+  color: #fff !important;
+}
+
+.select.dropdown {
+  border: 1px solid grey;
+  box-shadow: inset 1px 2px 5px 0px #b3b3b3;
+  width: 150px;
+  text-align: center;
+  background: #fff;
+}
+
+.dropdown.icon {
+  margin: auto;
+}
+
+.text {
+  padding: 10px;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #eee;
+}
+
+.img-container img {
+  max-width: 300px;
+  height: auto;
+  padding: 2px;
+}
+
+.menu {
+  height: 260px;
+  overflow-y: scroll;
+}
+
+.title-Container {
+  background: #3eb8a7;
+  color: #fff;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  display: block;
+}
+
+img.paw {
+  max-width: 6%;
+  width: 5%;
+  height: auto;
+  margin: 6px;
+}

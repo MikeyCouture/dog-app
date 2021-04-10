@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import SearchBar from "./SearchBar";
 import ImageItem from "./ImageItem";
+import Header from "./Header";
 
 const App = () => {
   const [breedGroup, setBreedGroup] = useState("");
@@ -35,6 +36,7 @@ const App = () => {
 
   return (
     <div>
+      <Header />
       <SearchBar
         selected={selected}
         onSelectedChange={setSelected}

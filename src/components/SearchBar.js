@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import axios from "axios";
-import SearchItem from "./ImageItem";
+// import axios from "axios";
+// import ImageItem from "./ImageItem";
 
 const SearchBar = ({ breedGroup, breedList, selected, onSelectedChange }) => {
   const [open, setOpen] = useState(false);
