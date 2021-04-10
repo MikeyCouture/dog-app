@@ -10,22 +10,33 @@
 
 .label {
   color: #fff !important;
+  font-family: "Kiwi Maru", serif;
+}
+
+.item,
+.text {
+  font-family: "Kiwi Maru", serif;
+}
+
+.text {
+  padding: 10px;
+}
+
+.menu {
+  left: 0px;
+  right: 0px;
 }
 
 .select.dropdown {
   border: 1px solid grey;
   box-shadow: inset 1px 2px 5px 0px #b3b3b3;
-  width: 150px;
+  width: 200px;
   text-align: center;
   background: #fff;
 }
 
 .dropdown.icon {
   margin: auto;
-}
-
-.text {
-  padding: 10px;
 }
 
 .img-container {
@@ -35,6 +46,7 @@
   align-items: center;
   flex-wrap: wrap;
   background: #eee;
+  height: 400px;
 }
 
 .img-container img {
@@ -62,6 +74,7 @@ h1 {
   text-align: center;
   padding: 10px;
   display: block;
+  font-family: "Kiwi Maru", serif;
 }
 
 img.paw {
