@@ -6,9 +6,15 @@ const ImageItem = ({ images }) => {
 
   return (
     <div className="img-container">
-      <img src={`${img1}`} alt="" />
-      <img src={`${img2}`} alt="" />
-      <img src={`${img3}`} alt="" />
+      <div className="img-box ">
+        <img src={`${img1}`} alt="" />
+      </div>
+      <div className="img-box ">
+        <img src={`${img2}`} alt="" />
+      </div>
+      <div className="img-box ">
+        <img src={`${img3}`} alt="" />
+      </div>
     </div>
   );
 };

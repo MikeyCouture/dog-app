@@ -83,3 +83,11 @@ img.paw {
   height: auto;
   margin: 6px;
 }
+
+.img-container img {
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+}
